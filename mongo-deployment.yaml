@@ -21,7 +21,7 @@ spec:
       - image: mongo
         name: mongo
         args: ["--dbpath","/data/db"]
-        livenessProbe
+        livenessProbe:
           exec:
             command:
               - mongo

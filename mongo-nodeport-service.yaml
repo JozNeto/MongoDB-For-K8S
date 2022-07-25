@@ -15,7 +15,3 @@ spec:
     type: NodePort
 status:
   loadBalancer: {}
-
-#kubectl create -f mongodb-nodeport.yaml
-
-#mongo --host <ip> --port <port of nodeport svc> -u adminuser -p password123

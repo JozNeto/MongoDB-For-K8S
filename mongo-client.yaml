@@ -22,8 +22,6 @@ spec:
         name: mongo-client
         env:
         - name: mongo-client_INITDB_ROOT_USERNAME
-          value: 'jose'
+          value: 'username'
         - name: mongo-client_INITDB_ROOT_PASSWORD
-          value: '1234'
-
-# kubectl create -f mongodb-client.yaml
+          value: 'password'
